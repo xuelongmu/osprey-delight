@@ -9,11 +9,11 @@ other = "Download"
 [viewAll]
 other = "View All"
 [letsChat]
-other = "Contact"
+other = "Let's chat."
 [name]
-other = "Your name"
+other = "Name"
 [email]
-other = "E-Mail address"
+other = "Email"
 [subject]
 other = "Subject"
 [message]
