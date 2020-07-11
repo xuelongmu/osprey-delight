@@ -9,9 +9,9 @@
   height: 100%;
   overflow: hidden;
   overflow-x: hidden;
-  transition: opacity .1s ease-out;
+  transition: opacity 0.1s ease-out;
   // opacity: 0;
-  background-color: rgba(33, 33, 33, .75);
+  background-color: rgba(33, 33, 33, 0.75);
 
   &.active {
     visibility: visible;
@@ -26,8 +26,8 @@
   }
 
   article {
-    a { 
-      color: $accent
+    a {
+      color: $accent;
     }
   }
 }
@@ -90,7 +90,7 @@
   color: $smoke;
   font-size: 30px;
   font-weight: bold;
-  line-height: .5;
+  line-height: 0.5;
 
   &:hover,
   &:focus {
@@ -103,7 +103,7 @@
 .repo-info {
   color: $grey;
   a {
-    color: $grey
+    color: $grey;
   }
   font-size: 0.65em;
   .icon {
